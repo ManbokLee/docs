@@ -14,13 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#remote_theme : just-the-docs/just-the-docs
+#remote_theme : just-the-docs
+
+remote_theme : mmistakes/minimal-mistakes
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 title: RAYTeams Platform
 description: Documents about RAYTeams
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rayteams.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: rayteams/docs # for github-metadata
+repository: # for github-metadata
 
 permalink: pretty
 
