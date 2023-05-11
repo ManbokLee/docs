@@ -1,3 +1,9 @@
+---
+title: "Welcome to RAYTeams Docs."
+date: 2023-05-11 08:26:28 +0900
+categories: main
+---
+
 # Summary
 RAYTeams Platform Service 에 대한 모든 공유 문서를 정의합니다.
 누구나 볼 수 있는 공간입니다.
