@@ -10,6 +10,7 @@ RAYTeams Platform Service 에 대한 모든 공유 문서를 정의합니다.
 ### Manual/Documents
 
 * [Case Information](./developer/manual/case/README.md)
+
 ### APIs
 
 * [RAYTeams Cloud API](./developer/rayteams-api/rayteams-clooud-api/README.md)
