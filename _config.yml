@@ -16,7 +16,8 @@
 
 #remote_theme : just-the-docs
 
-remote_theme : mmistakes/minimal-mistakes
+#remote_theme : mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.13.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 title: RAYTeams Platform
