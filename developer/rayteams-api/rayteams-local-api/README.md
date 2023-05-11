@@ -1,19 +1,29 @@
----
-title: RAYTEams Local API
-bookFlatSection: true
-weight: 2
----
+# RAYTeams Local API
+
+### Common
+
+* [Ping](./rayteams-ping.md)
+* [Device Log](./rayteams-devicelog.md)
+* [Get RAYTeams Client Info](./rayteams-ver.md)
+* [Wake-up RAYTeams Client](./rayteams-wakeup.md)
+* [Send signal](./rayteams-signal.md)
 
 ## Summary
 
-## Resources
+[RAYTeams Client](https://www.rayteams.com/aboutcloud) 가 설치된 경우, 설치된 PC에서 RAYTeams Local API를 사용할 수 있습니다.
 
-### [User](user.md)
+## Index
 
-### [Case](case.md)
+### Case
 
-### [Group](group.md)
+* [Create/Sync Case](./case-share.md)
+* [Diff Data](./rayteams-diff.md)
+* [Service Sync](./rayteams-servicesync.md)
+* [Data Sync](./rayteams-sync.md)
 
-### [file](file.md)
+### Cloud
+* [Get files info(RAYTeams Cloud)](./rayteams-getcloudkeyinfo.md)
 
-### [Product](product.md)
+### License
+
+* [Check license](./check-license.md)
