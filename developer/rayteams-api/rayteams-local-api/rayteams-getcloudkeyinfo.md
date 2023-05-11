@@ -21,6 +21,7 @@ POST http://localhost:8008/api/file/getS3KeyInfo
 #### Payload
 
 **Description**
+
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | region | String | O  | Data가 존재하는 AWS S3 Region |

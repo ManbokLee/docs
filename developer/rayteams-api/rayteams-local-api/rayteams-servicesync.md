@@ -26,6 +26,7 @@ POST http://localhost:8008/api/file/teamsSync/{appName}/up
 ```
 
 **Description**
+
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | sn | String | O | Device Serial Number |

@@ -20,6 +20,7 @@ POST http://localhost:8008/api/file/raylinksync
 #### Payload
 
 **Description**
+
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | up | Boolean | O | 로컬에서 클라우드로 업로드 할지 여부<br /> ```true``` - Create or Upload case<br /> ```false```- Download case |
