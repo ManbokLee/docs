@@ -25,6 +25,7 @@ POST http://localhost:8008/api/device/log
 ```
 
 **Description**
+
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | sn | String | O | Device Serial Number |
