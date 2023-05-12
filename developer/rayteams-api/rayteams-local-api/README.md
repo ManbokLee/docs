@@ -7,6 +7,8 @@
 * [Get RAYTeams Client Info](./rayteams-ver.md)
 * [Wake-up RAYTeams Client](./rayteams-wakeup.md)
 * [Send signal](./rayteams-signal.md)
+* [Upload single action log](./action-log-create-single.md)
+* [Upload multiple action log](./action-log-create-multi.md)
 
 ## Summary
 
