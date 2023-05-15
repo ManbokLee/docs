@@ -13,6 +13,8 @@ RAYTeams Platform Service 에 대한 모든 공유 문서를 정의합니다.
 
 * [Case Information](./developer/manual/case/README.md)
 
+* [Activity Log](./developer/common/activity-log.md)
+
 ### APIs
 
 * [RAYTeams Cloud API](./developer/rayteams-api/rayteams-clooud-api/README.md)
