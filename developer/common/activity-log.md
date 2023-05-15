@@ -14,6 +14,7 @@ RAYTeams Client의 사용성을 검증과 개선을 위한 분석용 데이터�
 
 ```JSON
 {
+    "r" : "RAYTeams-GUID",
     "c" : "CASE",
     "t" : "CLICK",
     "a" : "BUTTONNAME",
@@ -27,12 +28,13 @@ RAYTeams Client의 사용성을 검증과 개선을 위한 분석용 데이터�
 
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
+| r | String | O | RAYTeams GUID  |
 | c | String | O | 사용자 액션의 Category  |
 | t | String | O  | 사용자 액션의 Type( ex, CLICK )  |
 | a | String | O  | 사용자 액션의 이름( ex, DownloadCase, UploadCase, UpdateStatus...)  |
 | l | Number | O  | timestamp (**초, millisecond가 아님**)  |
-| g | String | O  | Group ID  |
-| w | String | O  | Country Code  |
+| g | String | O  | Group ID, 로그인 안된 상태면 "" 공란으로...  |
+| w | String | O  | Country Code, 로그인 안된 상태면 "" 공란으로...  |
 
 ## Activity Log File
 
