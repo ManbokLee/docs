@@ -48,10 +48,10 @@ File의 규격은 아래와 같습니다.
 
 ### Example
 
-```RAYTeamsClient-1684113019.json```
+```RAYTeamsClient-29283928374-1684113019.json```
 
 **Naming Rule**
 
-```[APPKEYNAME]-[FILECREATE-TIMESPATN].json```
+```[APPKEYNAME]-[SENDER-GUID]-[FILECREATE-TIMESPATN].json```
 
-위와 같이 ```APPKEYNAME``` 과 파일을 ```생성한 시각의 Timestamp```의 조합(하이픈)으로 생성합니다.
+위와 같이 ```APPKEYNAME```, ```Sender(RAYTEams) GUID```와 파일을 ```생성한 시각의 Timestamp```의 조합(하이픈)으로 생성합니다.
