@@ -14,6 +14,8 @@ weight: 2
 
 ### [Group](./resources/group.md)
 
+* [Common - Send email](./resources/group/send-email.md)
+
 ### [file](./resources/file.md)
 
 ### [Product](./resources/product.md)
