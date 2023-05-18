@@ -11,19 +11,18 @@ Prosthesis Case에서 Data 정보를 표현하는 방법에 대해서 설명합�
     "report": {
         ...
         "data": [
+             {
+                "key": 11,
+                "type": "AnatomicCrown",
+                "material": "GCER",
+                "shade": "VCL:A1"
+            },
             {
-                "key": 13,
-                "type": "crown",
-                "child": [
-                    "crown"
-                ],
-                "type_crown": {
-                    "method": "anatomic",
-                    "material": "zirconia",
-                    "shade_system": "vita_classic",
-                    "shade": "A4"
-                }
-            }
+                "key": 21,
+                "type": "AnatomicCrown",
+                "material": "GCER",
+                "shade": "VCL:A1"
+            },
         ]
         ...
     }

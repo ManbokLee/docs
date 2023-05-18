@@ -25,6 +25,7 @@ Case에 대한 정의 항목중에 공통으로 사용하는 정보에 대한 �
 ```
 
 ### Description
+
 | Name | Description |
 | -- | -- |
 | front_face_aspect | 정면 사진 |
@@ -52,6 +53,7 @@ Case에 대한 정의 항목중에 공통으로 사용하는 정보에 대한 �
 ```
 
 ### Description
+
 | Name | Type | Required | Description |
 | -- | -- | -- | -- |
 | report.memo | String | X | 형태로 진료의 메모 정보가 기록됨, 줄넘김은 ```\n```으로 구별함 |
