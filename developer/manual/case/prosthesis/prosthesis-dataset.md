@@ -1,4 +1,4 @@
-# Prosthesis DataSet
+# Prosthesis Data
 
 ## Summary
 
