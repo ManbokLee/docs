@@ -35,11 +35,7 @@ Prosthesis Case에서 Data 정보를 표현하는 방법에 대해서 설명합�
 
 | Name | Type | Required | Description |
 | -- | -- | -- | -- |
-| key | Number | O | 치아 번호([FDI 표기법](https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation))  |
-| type | String | O | 해당 치아의 진료 Type <br>Root Type으로 실제 Type은 child 배열안에 존재함 |
-| child | Array[String] | O | 실제 진료 Type의 배열 1개인 경우 rootType과 동일 <br> 이 값들에 대응되도록 type_{child}가 생성되며 해당 객체에 실제 정보가 담김 <br>child가 여러개인 경우 type_{child}객체 역시 대응하여 생성됨 |
-| type_{child} | Object | O | 실제 진료정보가 담긴 객체 <br> child 값을 ```suffix```로 사용한다. |
-| type_{child}.method | String | O | child Type의 치료 방법 |
-| type_{child}.material | String | O | child Type의 치료 소재 |
-| type_{child}.shade_system | String | O | child Type에 사용된 shade의 system 이름 |
-| type_{child}.shade | String | O | child Type의 shade 값 |
+| report.data[n].key | Number | O | 치아 번호  |
+| report.data[n].type | String | O |해당 치아의 진료 Type |
+| report.data[n].material | String | X | 해당 치아의 소재 |
+| report.data[n].shade | String | X | 해당 치아의 쉐이드 <br> ":"로 분리하여 앞에 문자는 Shade System의 값 뒤 문자는 실제 쉐이드 값 |
