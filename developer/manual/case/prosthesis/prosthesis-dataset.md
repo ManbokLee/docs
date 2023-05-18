@@ -63,11 +63,12 @@
 ```
 
 ### Description
-| Pros  | Description |
-| -- | -- |
-| value | 카테고리의 실제 값 <br>Type에 정의되며 UI상 Type의 분류를 위해 사용됨 |
-| label | 표시되는 라벨 <br>엔드유저에게 노출되는 정보 |
-| useable | 사용 여부 |
+
+| Pros  | Description |   
+| -- | -- |   
+| value | 카테고리의 실제 값 <br>Type에 정의되며 UI상 Type의 분류를 위해 사용됨 |   
+| label | 표시되는 라벨 <br>엔드유저에게 노출되는 정보 |   
+| useable | 사용 여부 |   
 
 ## Type
 
@@ -295,15 +296,16 @@
 ```
 
 ### Description
-| Pros  | Description |
-| -- | -- |
-| value | Type에 대한 고유한 값 <br>이 값으로 report가 작성되어야함 |
-| label | 표시되는 Type에 대한 값 <br>엔드유저에게 노출되는 정보|
-| category | 타입이 UI상 표시될때 분류되는 기준 <br>report와는 무관하며 UI상에서만 사용됨 |
-| implantable | 임플란트 정보가 추가 가능한지 여부 |
-| hasMaterial | 소재 선택이 가능한지 여부 |
-| materials | 특정 소재만 선택이 가능한 경우 해당 소제의 value Array <br>이 값이 없다면 가능한 소재를 제공함(단 소재 속성 중 usedByType 이 true인 소재는 제외함) |
-| useable | 사용 여부 이 값이 false라면 UI에 표시하지 않음 |
+
+| Pros  | Description |   
+| -- | -- |   
+| value | Type에 대한 고유한 값 <br>이 값으로 report가 작성되어야함 |   
+| label | 표시되는 Type에 대한 값 <br>엔드유저에게 노출되는 정보|   
+| category | 타입이 UI상 표시될때 분류되는 기준 <br>report와는 무관하며 UI상에서만 사용됨 |   
+| implantable | 임플란트 정보가 추가 가능한지 여부 |   
+| hasMaterial | 소재 선택이 가능한지 여부 |   
+| materials | 특정 소재만 선택이 가능한 경우 해당 소제의 value Array <br>이 값이 없다면 가능한 소재를 제공함(단 소재 속성 중 usedByType 이 true인 소재는 제외함) |   
+| useable | 사용 여부 이 값이 false라면 UI에 표시하지 않음 |   
 
 
 ## Materials
@@ -457,14 +459,15 @@
 ```
 
 ### Description
-| Pros  | Description |
-| -- | -- |
-| value | Material에 대한 고유 값 <br>이 값으로 report가 작성되어야함 |
-| label | 표시되는 Material 대한 값 <br>엔드유저에게 노출되는 정보 |
-| desc | 값에 대한 추가 정보 및 설명 |
-| shades | 지원하는 쉐이드 value Array <br>빈 배열인 경우 쉐이드를 지원하지 않음 |
-| usedByType | 소재가 type에 의해서만 제공되는지 여부 <br> 이 값이 true인 경우 기본 소재에서는 제외됨 |
-| useable | 사용 여부 |
+
+| Pros  | Description |   
+| -- | -- |   
+| value | Material에 대한 고유 값 <br>이 값으로 report가 작성되어야함 |   
+| label | 표시되는 Material 대한 값 <br>엔드유저에게 노출되는 정보 |   
+| desc | 값에 대한 추가 정보 및 설명 |   
+| shades | 지원하는 쉐이드 value Array <br>빈 배열인 경우 쉐이드를 지원하지 않음 |   
+| usedByType | 소재가 type에 의해서만 제공되는지 여부 <br> 이 값이 true인 경우 기본 소재에서는 제외됨 |   
+| useable | 사용 여부 |   
 
 ## Shades
 
@@ -580,6 +583,7 @@
 ```
 
 ### Description
+
 | Pros  | Description |
 | -- | -- |
 | value | Shade에 대한 고유 값 <br>이 값으로 report가 작성되어야함 |

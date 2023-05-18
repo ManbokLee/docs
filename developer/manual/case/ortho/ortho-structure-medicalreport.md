@@ -32,6 +32,7 @@
 }
 ```
 ## Description
+
 | Name | Type | Required |
 | -- | -- | -- |
 | conditions | Arrayy[String]  | X |
