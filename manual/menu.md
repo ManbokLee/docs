@@ -3,8 +3,8 @@
 
 ## Case
 
-* [Orthodontics](./ortho/README.md)
-* [Prosthesis](./prosthesis/README.md)
+* [Orthodontics](./case/ortho/README.md)
+* [Prosthesis](./case/prosthesis/README.md)
 
 ## Licnese
 
