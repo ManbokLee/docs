@@ -1,8 +1,8 @@
 ## Overview
 
 * [Summary](./overview/README.md)
-* [Get Authorized Code](./overview/get-authorized-code.md)
-* [Get Access Token](./overview/get-access-token.md)
+* [Get Authorized Code](./overview/authentication/get-authorized-code.md)
+* [Get Access Token](./overview/authentication/get-access-token.md)
 
 ## Resources
 
