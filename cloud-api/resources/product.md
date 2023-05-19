@@ -1,13 +1,6 @@
----
-title: "4.6 Product"
-weight: 6
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Product
+
+## Summary
 
 ## 4.6.1 Get product information
 
@@ -19,7 +12,7 @@ You can agree with the terms and conditions for each product.
 
 ### Resource Information
 
-```
+```JSON
 GET /product/{_productId}
 ```
 
@@ -45,7 +38,7 @@ GET /product/{_productId}
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {

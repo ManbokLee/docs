@@ -1,13 +1,6 @@
----
-title: "4.3 Project"
-weight: 3
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Case
+
+## Summary
 
 ## 4.3.1 Get Project
 
@@ -30,7 +23,7 @@ See the [Project](/docs/platformapi-appendix/custom-data-type/#project) for the 
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}
 ```
 
@@ -56,7 +49,7 @@ GET /project/{_id}
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -83,7 +76,7 @@ Get only basic information of Project.
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/info
 ```
 
@@ -109,7 +102,7 @@ GET /project/{_id}/info
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {
@@ -172,7 +165,7 @@ Get the Memo information of Project.
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/memo
 ```
 
@@ -198,7 +191,7 @@ GET /project/{_id}/memo
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -253,7 +246,7 @@ Import the attached files attached to the Project.
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/attachments
 ```
 
@@ -279,7 +272,7 @@ GET /project/{_id}/attachments
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -320,7 +313,7 @@ It delivers the change history of the Project.
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/histories
 ```
 
@@ -346,7 +339,7 @@ GET /project/{_id}/histories
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -394,7 +387,7 @@ Please refer to the document for the object information of individual orders.
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/orders
 ```
 
@@ -420,7 +413,7 @@ GET /project/{_id}/orders
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -459,7 +452,7 @@ Otherwise, it is stored in the form of `Project:institute:timestamp`. The group 
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/groups
 ```
 
@@ -485,7 +478,7 @@ GET /project/{_id}/groups
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -525,7 +518,7 @@ At this time, the Project Object is delivered only the Custom Data Type `project
 
 ### Resource Information
 
-```
+```JSON
 GET /project
 ```
 
@@ -551,7 +544,7 @@ GET /project
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -571,7 +564,7 @@ You can register an attachment to a specific project.
 
 ### Resource Information
 
-```
+```JSON
 POST /project/{_id}/attachment/add
 ```
 
@@ -605,7 +598,7 @@ POST /project/{_id}/attachment/add
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": { ... }
@@ -622,7 +615,7 @@ Deliver a temporary link that can download a specific attachment file.
 
 ### Resource Information
 
-```
+```JSON
 GET /project/{_id}/attachment/download/{_attachmentId}
 ```
 
@@ -649,7 +642,7 @@ GET /project/{_id}/attachment/download/{_attachmentId}
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {

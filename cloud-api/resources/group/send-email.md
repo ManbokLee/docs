@@ -8,7 +8,7 @@ RAYTeams Cloud Service에는 이메일을 발송하는 기능을 제공하고 �
 
 ### Request
 
-```
+```JSON
 PUT /sendemail
 ```
 
@@ -42,7 +42,7 @@ PUT /sendemail
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data" : { }
@@ -51,7 +51,7 @@ PUT /sendemail
 
 **fail**
 
-```
+```JSON
 {
   "status": "fail",
   "data" : {}

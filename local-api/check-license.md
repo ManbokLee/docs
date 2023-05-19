@@ -1,4 +1,4 @@
-# Check Licnese
+# Check License
 
 ## Summary
 

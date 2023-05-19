@@ -1,13 +1,4 @@
----
-title: "Z.6 Project File Types"
-weight: 6
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Appendix - Project File Types
 
 ## Summary
 

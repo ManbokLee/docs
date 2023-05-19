@@ -1,13 +1,6 @@
----
-title: "4.1 User"
-weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# User
+
+## Summary
 
 ## 4.1.1 Get my information
 
@@ -17,7 +10,7 @@ Deliver the current logged -in user information.
 
 ### Resource Information
 
-```
+```JSON
 GET /me
 ```
 
@@ -39,7 +32,7 @@ GET /me
 
 ### Response Body Structure
 
-```
+```JSON
 {
   "status": "success",
   "data": {
@@ -78,7 +71,7 @@ Deliver information from a specific user using the email address.
 
 ### Resource Information
 
-```
+```JSON
 POST /getuserbyemail
 ```
 
@@ -96,7 +89,7 @@ POST /getuserbyemail
 
 ### Request Body Structure
 
-```
+```JSON
 {
   "email": "aaa@bbb.com"
 }
@@ -106,7 +99,7 @@ POST /getuserbyemail
 
 **Success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {
@@ -139,7 +132,7 @@ POST /getuserbyemail
 
 **Fail**
 
-```
+```JSON
 {
   "status": "success",
   "data": {

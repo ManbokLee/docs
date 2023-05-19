@@ -1,15 +1,6 @@
----
-title: "3.2 Get Access Token"
-weight: 2
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Get Access Token
 
-## **Summary**
+## Summary
 
 Describes how to acquire Access Token through Authorized Code.
 
@@ -26,7 +17,7 @@ In other words, the token issued in the `ap-northeast-2` Region is only valid in
 
 As shown below, request `/oauth2/token` endpoint as a POST.
 
-```
+```JSON
 POST https://oauth-ap-northeast-2-development.rayteams.com/oauth2/token
 ```
 
@@ -38,7 +29,7 @@ If a password is issued to the client, the client can deliver the `client_id` an
 
 JOIN with the value of `client_id` and `client_secret` uses the value of this entire string.
 
-```
+```JSON
 Authorization: Basic ZGpjOTh1M2ppZWRtaTI4M2V1OTI4OmFiY2RlZjAxMjM0NTY3ODkw
 ```
 
@@ -79,7 +70,7 @@ If `grant_type` is `authorization_code`, it is essential.
 
 ### Access token exchange with Authorized Code
 
-```
+```JSON
 POST https://oauth-ap-northeast-2-development.rayteams.com/oauth2/token&
                        Content-Type='application/x-www-form-urlencoded'&
                        Authorization=Basic aSdxd892iujendek328uedj
@@ -92,7 +83,7 @@ POST https://oauth-ap-northeast-2-development.rayteams.com/oauth2/token&
 
 ### Access token exchange with Refresh token
 
-```
+```JSON
 POST https://oauth-ap-northeast-2-development.rayteams.com/oauth2/token >
                            Content-Type='application/x-www-form-urlencoded'&
                            Authorization=Basic aSdxd892iujendek328uedj
@@ -106,7 +97,7 @@ POST https://oauth-ap-northeast-2-development.rayteams.com/oauth2/token >
 
 **The result of success**
 
-```
+```JSON
 { 
   "access_token":"eyJz9sdfsdfsdfsd", 
   "id_token":"dmcxd329ujdmkemkd349r",
@@ -117,7 +108,7 @@ POST https://oauth-ap-northeast-2-development.rayteams.com/oauth2/token >
 
 **The result of failure**
 
-```
+```JSON
 {
   "error":"invalid_request|invalid_client|invalid_grant|unauthorized_client|unsupported_grant_type|"
 }

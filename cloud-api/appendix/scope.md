@@ -1,13 +1,4 @@
----
-title: "Z.3 Scope"
-weight: 3
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Appendix - Scope
 
 ## Summary
 

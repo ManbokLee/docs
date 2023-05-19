@@ -1,13 +1,4 @@
----
-title: "Z.2 Custom Data Type"
-weight: 2
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Appendix - Custom Data Types
 
 ## Summary
 

@@ -1,13 +1,4 @@
----
-title: "3.1 Get Authorized Code"
-weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Get Authorized Code
 
 ## Summary
 
@@ -25,7 +16,7 @@ It is also a way to show how to get the authorized code.
 
 ### **Step #1. Request Login URL**
 
-```
+```JSON
 GET https://oauth-ap-northeast-2-development.rayteams.com/oauth2/authorize
 ```
 
@@ -35,7 +26,7 @@ Call the web browser and work with the above link information to be loaded in th
 
 When calling from the web, you can call in the form as shown below.
 
-```
+```JSON
 <a href="https://oauth-ap-northeast-2-development.rayteams.com/login?client_id=37ev8rm4mvtnb65hf381l0k98b&response_type=code&redirect_uri=http://localhost/callback">RAYTeams Connect</a>
 ```
 
@@ -72,7 +63,7 @@ Authorized code is transmitted to the value of `code` to the callback URL.
 
 Web page is moved in the form as shown below.
 
-```
+```JSON
 http://callback-domain/callback?code=baaca0d5-0044-424e-9311-16d3d754784f
 ```
 

@@ -1,13 +1,6 @@
----
-title: "4.5 Order"
-weight: 5
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Order
+
+## Summary
 
 ## 4.5.1 Get order information
 
@@ -19,7 +12,7 @@ Please refer to the [Z.7 Appendix - Project & Order](../appendix/project-and-ord
 
 ### Resource Information
 
-```
+```JSON
 GET /order/{_orderId}
 ```
 
@@ -45,7 +38,7 @@ GET /order/{_orderId}
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {
@@ -114,7 +107,7 @@ All changed history is recorded in the History of the Project. [Z.2 Appendix - C
 
 ### Resource Information
 
-```
+```JSON
 PUT /order/{_id}/status
 ```
 
@@ -132,7 +125,7 @@ PUT /order/{_id}/status
 
 ### Request Body Structure
 
-```
+```JSON
 {
   "data": {
     "status": "node_1669006551533",
@@ -152,7 +145,7 @@ PUT /order/{_id}/status
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {

@@ -1,13 +1,6 @@
----
-title: "4.2 Group"
-weight: 2
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Group
+
+## Summary
 
 ## 4.2.1 Get my group information
 
@@ -17,7 +10,7 @@ The login user delivers the information of the group.
 
 ### Resource Information
 
-```
+```JSON
 GET /mygroup
 ```
 
@@ -41,7 +34,7 @@ GET /mygroup
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {
@@ -91,7 +84,7 @@ Deliver information about specific groups.
 
 ### Resource Information
 
-```
+```JSON
 GET /group/{_id}
 ```
 
@@ -117,7 +110,7 @@ GET /group/{_id}
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": {
@@ -161,7 +154,7 @@ GET /group/{_id}
 
 **Fail** (Not exist)
 
-```
+```JSON
 {
   "status": "success"
 }
@@ -175,7 +168,7 @@ Bring a list of groups in a particular country.
 
 ### Resource Information
 
-```
+```JSON
 POST /groupbycountrycode
 ```
 
@@ -197,7 +190,7 @@ POST /groupbycountrycode
 
 ### Request Body Structure
 
-```
+```JSON
 {
   "data": {
     "countryCode": "KR"
@@ -213,7 +206,7 @@ POST /groupbycountrycode
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -261,7 +254,7 @@ POST /groupbycountrycode
 
 **Fail** (Not exist)
 
-```
+```JSON
 {
   "status": "success",
   "data": []
@@ -276,7 +269,7 @@ It delivers the result of searching the group in the group name.
 
 ### Resource Information
 
-```
+```JSON
 POST /groupbyname
 ```
 
@@ -294,7 +287,7 @@ POST /groupbyname
 
 ### Request Body Structure
 
-```
+```JSON
 {
   "data": {
     "name": "test",
@@ -314,7 +307,7 @@ LIKE searches 'name' of Group as a value of 'name'.
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data": [
@@ -363,7 +356,7 @@ LIKE searches 'name' of Group as a value of 'name'.
 ```
 **Fail** (Not exist)
 
-```
+```JSON
 {
   "status": "success",
   "data": []

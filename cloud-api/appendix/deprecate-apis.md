@@ -1,13 +1,5 @@
----
-title: "Z.9 Deprecate APIs"
-weight: 9
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Appendix - Deprecate APIs
+
 ## Summary
 
 By default, all APIs in RayTeams support backward compatibility.

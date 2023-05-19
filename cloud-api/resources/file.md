@@ -1,13 +1,6 @@
----
-title: "4.4 File"
-weight: 4
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# File
+
+## Summary
 
 ## 4.4.1 Get project file
 
@@ -23,7 +16,7 @@ It is different from the Attachment of Project.Please refer to [Z.4 Appendix - F
 
 ### Resource Information
 
-```
+```JSON
 GET /file/{_projectId}/{:_type}
 ```
 
@@ -50,7 +43,7 @@ GET /file/{_projectId}/{:_type}
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data" : {
@@ -86,7 +79,7 @@ GET /file/{_projectId}/{:_type}
 
 fail (not exist)
 
-```
+```JSON
 {
   "status": "success",
   "data" : {}

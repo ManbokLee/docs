@@ -1,13 +1,4 @@
----
-title: "Z.5 Country Code"
-weight: 5
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
+# Appendix - Country Code
 
 ## Summary
 
