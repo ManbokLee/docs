@@ -10,7 +10,7 @@ Case Data를 다른 RAYTeams 사용자에게 공유하는 것이 아니라 다�
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/file/teamsSync/{appName}/up
 ```
 

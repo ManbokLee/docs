@@ -12,7 +12,7 @@ Application에서 특정 행위에 대한 정보를 RAYTeams Cloud에 보관할�
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/log/applog
 ```
 
@@ -44,7 +44,7 @@ POST http://localhost:8008/api/log/applog
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data" : { }
@@ -53,7 +53,7 @@ POST http://localhost:8008/api/log/applog
 
 **fail**
 
-```
+```JSON
 {
   "status": "fail",
   "data" : {}

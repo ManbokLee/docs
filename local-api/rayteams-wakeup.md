@@ -8,7 +8,7 @@ RAYTeams Client의 윈도우를 활성화 합니다.
 
 ### Request
 
-```
+```JSON
 GET http://localhost:8008/api/wakeup?path={path}&appName={appName}&licenseId={licenseId}
 ```
 

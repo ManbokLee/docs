@@ -6,7 +6,7 @@
 
 ### Request
 
-```
+```JSON
 GET http://localhost:8008/api/license/check/{appName}?type={type}
 ```
 
@@ -19,7 +19,7 @@ GET http://localhost:8008/api/license/check/{appName}?type={type}
 
 ### Response
 
-```
+```JSON
 {
   "check": true,
   "code": "A0002",
@@ -65,11 +65,11 @@ GET http://localhost:8008/api/license/check/{appName}?type={type}
 | E0003 | False | RAYTeams의 설정이 존재하지 않는 경우 |
 
 **A0002 Sample**
-```javascript
+```JSON
 {
-  check: true,
-  code: "A0002",
-  lctype: "pool",
-  expiredPeriod: 12,  - 만료 기간
+  "check" : true,
+  "code" : "A0002",
+  "lctype" : "pool",
+  "expiredPeriod": 12
 }
 ```

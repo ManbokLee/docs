@@ -8,7 +8,7 @@ Device의 각종 Log를 저장하기 위한 API
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/device/log
 ```
 

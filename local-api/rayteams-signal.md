@@ -8,7 +8,7 @@ RAYTeams Client의 API입니다. RAYTeams Client 가 설치된 경우 사용가�
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/signals/{appName}/{signalKey}
 ```
 

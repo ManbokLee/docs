@@ -8,7 +8,7 @@ RAYTeams Client가 실행중인지를 확인합니다.
 
 ### Request
 
-```
+```JSON
 GET http://localhost:8008/api/ping
 ```
 

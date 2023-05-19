@@ -8,7 +8,7 @@ Cloud에 저장된 File들에 대한 정보를 반환합니다.
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/file/getS3KeyInfo
 ```
 

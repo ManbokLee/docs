@@ -8,7 +8,7 @@ RAYTeams Client의 정보를 반환합니다.
 
 ### Request
 
-```
+```JSON
 GET http://localhost:8008/api/file/info/ver
 ```
 

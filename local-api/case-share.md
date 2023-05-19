@@ -8,7 +8,7 @@ RAYTeams의 가장 기본적인 공유 기능에 해당하는 API 입니다.
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/file/raylinkup
 ```
 
@@ -36,7 +36,7 @@ POST http://localhost:8008/api/file/raylinkup
 
 **success**
 
-```
+```JSON
 {
   "status": "success",
   "data" : { }
@@ -45,7 +45,7 @@ POST http://localhost:8008/api/file/raylinkup
 
 **fail**
 
-```
+```JSON
 {
   "status": "fail",
   "data" : {}

@@ -10,7 +10,7 @@ RAYTeams Client의 API입니다. RAYTeams Client 가 설치된 경우 사용가�
 
 ### Request
 
-```
+```JSON
 POST http://localhost:8008/api/file
 ```
 
@@ -72,6 +72,7 @@ POST http://localhost:8008/api/file
 | exocadedit | String | Exocad로 변경되었는지 여부 (RAYTeams 내 ExocadConverter를 실행한 경우에만 의미 있음) |
 
 **Fail - No save path**
+
 ```JSON
 {
     "status": "fail",
