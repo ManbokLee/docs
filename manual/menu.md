@@ -1,5 +1,5 @@
 ## Summary
-* [Case Information](./README.md)
+* [Case Information](/docs/manual/README.md)
 
 ## Case
 
