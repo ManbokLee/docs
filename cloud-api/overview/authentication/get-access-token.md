@@ -4,7 +4,7 @@
 
 Describes how to acquire Access Token through Authorized Code.
 
-Please refer to the [1. Get Authorized Code](get-authorized-code.md) document for the Authorized Code.
+Please refer to the [1. Get Authorized Code](./get-authorized-code.md) document for the Authorized Code.
 
 ## Token Information
 
