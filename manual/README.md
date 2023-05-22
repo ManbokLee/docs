@@ -1,6 +1,6 @@
 # RAYTeams manual for developer
  
-## Summery
+## Summary
 
 RAYTeams Service 에 대한 기술적인 정보들을 공유합니다.
 
