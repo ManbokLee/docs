@@ -1,6 +1,6 @@
 ## Overview
 
-* [Summary](./overview/README.md)
+* [Summary](./overview/authentication/README.md)
 * [Get Authorized Code](./overview/authentication/get-authorized-code.md)
 * [Get Access Token](./overview/authentication/get-access-token.md)
 
