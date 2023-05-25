@@ -17,6 +17,6 @@ RAYTeams Platform Service 에 대한 모든 공유 문서를 정의합니다.
 
 ### APIs
 
-* [RAYTeams Cloud API](./developer/rayteams-api/rayteams-clooud-api/README.md)
+* [RAYTeams Cloud API](./cloud-api/README.md)
 
-* [RAYTeams Local API](./developer/rayteams-api/rayteams-local-api/README.md)
+* [RAYTeams Local API](./local-api/README.md)
