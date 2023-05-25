@@ -21,3 +21,7 @@
 ## License
 
 * [Check license](./check-license.md)
+
+## Patient
+
+* [Generate QR Code](./gen-qr.md)
