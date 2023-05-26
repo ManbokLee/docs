@@ -100,6 +100,7 @@ Prosthesis Case에 대한 예시를 정리합니다.
 
 ### Description
  - 14 번 치아는 Anatomic Crown으로 Zirconium dioxide소재로 Vita 3D Master 쉐이드 시스템의 1M2 쉐이드를 사용함
+ - 14 번 치아는 Screw Type의 Custom Abutment 임플란트를 진행함.
  - 23, 24, 25 번 치아는 Anatomic Inlay로 gold 소재를 사용함
  - photos는 RAYFace에서 생성된 정보이며 각각 해당하는 이미지 파일의 경로를 의미함
 
@@ -117,8 +118,8 @@ Prosthesis Case에 대한 예시를 정리합니다.
         "type": "AnatomicCrown",
         "material": "ZI",
         "shade": "V3DM:1M2",
-        "implantType": "CustomAbutment",
-        "materialAbutment": "GCER"
+        "implant": "CustomAbutment",
+        "implantType": "ScrewType"
       },
       {
         "key": 23,
