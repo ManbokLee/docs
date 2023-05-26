@@ -296,7 +296,7 @@
   {
     "value": "CementType",
     "label": "Cement Type"
-  },
+  }
 ]
 ```
 
