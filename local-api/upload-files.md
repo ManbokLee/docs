@@ -21,14 +21,12 @@ POST http://localhost:8008/api/app/uploadfiles
 
 ```JSON
 {
-    "data": [
-        {
-            "c" : "OrthoSim",
-            "t" : "AIERRORCASE",
-            "s" : "C:\\AAA\BBB\CCC\",
-            "l" : 1667905633404
-        }
-    ]
+    "data": {
+        "c" : "OrthoSim",
+        "t" : "AIERRORCASE",
+        "s" : "C:\\AAA\BBB\CCC\",
+        "l" : 1667905633404
+    }
 }
 ```
 
