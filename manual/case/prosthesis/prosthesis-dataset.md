@@ -10,8 +10,8 @@
 ``` JSON
 [
   {
-    "value": "InlaysOnlaysAndVenners",
-    "label": "Inlays, Onlays And Venners",
+    "value": "InlaysOnlaysAndVeneers",
+    "label": "Inlays, Onlays And Veneers",
     "useable": true
   },
   {
@@ -260,6 +260,50 @@
 | materials | 특정 소재만 선택이 가능한 경우 해당 소제의 value Array <br>이 값이 없다면 가능한 소재를 제공함(단 소재 속성 중 usedByType 이 true인 소재는 제외함) |   
 | useable | 사용 여부 이 값이 false라면 UI에 표시하지 않음 |   
 
+
+## Implant
+> 임플란트는 Type에서 implantable이 true인 경우에만 유효한 값으로 계산됩니다.
+> 임플란트가 선택되면 implant type도 반드시 설정 되어야 합니다.
+
+### Props of Implant Value
+
+```JSON
+[
+  { 
+    "value": "CustomAbutment",
+    "label": "CUstom Abutment",
+  },
+  {
+    "value": "StockAbutment",
+    "label": "Stock Abutment",
+  }
+]
+```
+
+| Props | Description |
+| -- | -- |
+| value | Implant에 대한 고유한 값 <br>이 값으로 report가 작성 되어야함 |
+| label | UI에 표시되는 Implant에 대한 값 |
+
+### Props of Implant Type
+
+```JSON
+[
+  {
+    "value": "ScrewType",
+    "label": "Screw Type"
+  },
+  {
+    "value": "CementType",
+    "label": "Cement Type"
+  },
+]
+```
+
+| Props | Description |
+| -- | -- |
+| value | Implant Type에 대한 고유한 값 <br>이 값으로 report가 작성 되어야함 |
+| label | UI에 표시되는 Implant Type에 대한 값 |
 
 ## Materials
 
