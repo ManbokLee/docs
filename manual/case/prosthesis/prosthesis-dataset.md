@@ -271,7 +271,7 @@
 [
   { 
     "value": "CustomAbutment",
-    "label": "CUstom Abutment",
+    "label": "Custom Abutment",
   },
   {
     "value": "StockAbutment",
