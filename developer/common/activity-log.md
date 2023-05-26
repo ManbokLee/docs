@@ -52,6 +52,6 @@ File의 규격은 아래와 같습니다.
 
 **Naming Rule**
 
-```[APPKEYNAME]-[SENDER-GUID]-[FILECREATE-TIMESPATN].json```
+```[APPKEYNAME]-[SENDER-GUID]-[FILECREATE-TIMESPAN].json```
 
 위와 같이 ```APPKEYNAME```, ```Sender(RAYTEams) GUID```와 파일을 ```생성한 시각의 Timestamp```의 조합(하이픈)으로 생성합니다.
