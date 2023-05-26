@@ -17,6 +17,7 @@
 ## Cloud
 
 * [Get files info(RAYTeams Cloud)](./rayteams-getcloudkeyinfo.md)
+* [Upload Files](./upload-files.md)
 
 ## License
 
