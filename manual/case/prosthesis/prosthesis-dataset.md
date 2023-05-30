@@ -10,6 +10,11 @@
 ``` JSON
 [
   {
+    "value": "InlaysOnlaysAndVeneers",
+    "label": "Inlays, Onlays And Veneers",
+    "useable": true
+  },
+  {
     "value": "CrownsAndCopings",
     "label": "Crowns And Copings",
     "useable": true
@@ -20,45 +25,25 @@
     "useable": true
   },
   {
-    "value": "InlaysOnlaysAndVenners",
-    "label": "Inlays, Onlays And Venners",
-    "useable": true
-  },
-  {
-    "value": "DigitalCopyMilling",
-    "label": "Digital Copy Milling",
-    "useable": true
-  },
-  {
-    "value": "PrimaryUnits",
-    "label": "Primary Units",
-    "useable": false
-  },
-  {
     "value": "Waxup",
     "label": "Wax-up",
     "useable": true
   },
   {
-    "value": "RemovablesAndAppliances",
-    "label": "Removables And Appliances",
-    "useable": true
-  },
-  {
-    "value": "Bars",
-    "label": "Bars",
-    "useable": true
-  },
-  {
-    "value": "ResidualDentition",
-    "label": "Residual Dentition",
+    "value": "Splint",
+    "label": "Splint",
     "useable": true
   },
   {
     "value": "Denture",
     "label": "Denture",
     "useable": true
-  }
+  },
+  {
+    "value": "Orthodontics",
+    "label": "Orthodontics",
+    "useable": true
+  },
 ]
 ```
 
@@ -76,22 +61,6 @@
 ``` JSON
 [
   {
-    "value": "AnatomicCrown",
-    "label": "Anatomic Crown",
-    "implantable": true,
-    "category": "CrownsAndCopings",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "AnatomicPontic",
-    "label": "Anatomic Pontic",
-    "implantable": false,
-    "category": "Pontics",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
     "value": "AnatomicInlay",
     "label": "Anatomic Inlay",
     "implantable": false,
@@ -108,83 +77,18 @@
     "useable": true
   },
   {
-    "value": "MissingTooth",
-    "label": "Missing Tooth",
+    "value": "OffsetInlay",
+    "label": "Offset Inlay",
     "implantable": false,
-    "materials": [
-      "None"
-    ],
-    "category": "ResidualDentition",
+    "category": "InlaysOnlaysAndVenners",
     "hasMaterial": true,
     "useable": true
   },
   {
-    "value": "HealthyTooth",
-    "label": "Healthy Tooth",
-    "implantable": false,
-    "materials": [
-      "Healthy"
-    ],
-    "category": "ResidualDentition",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "Antagonist",
-    "label": "Antagonist",
-    "implantable": false,
-    "category": "ResidualDentition",
-    "materials": [
-      "Healthy"
-    ],
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "AnatomicWaxup",
-    "label": "Anatomic Wax-up",
+    "value": "AnatomicCrown",
+    "label": "Anatomic Crown",
     "implantable": true,
-    "category": "DigitalCopyMilling",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "Attachment",
-    "label": "Attachment",
-    "implantable": false,
-    "category": "PrimaryUnits",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "BarPillar",
-    "label": "Bar Pillar",
-    "implantable": true,
-    "category": "Bars",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "BarSegment",
-    "label": "Bar Segment",
-    "implantable": false,
-    "category": "Bars",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "BiteSplint",
-    "label": "Bite Splint",
-    "implantable": false,
-    "category": "RemovablesAndAppliances",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "BiteSplintGap",
-    "label": "Bite SplintGap",
-    "implantable": false,
-    "category": "RemovablesAndAppliances",
+    "category": "CrownsAndCopings",
     "hasMaterial": true,
     "useable": true
   },
@@ -197,14 +101,6 @@
     "useable": true
   },
   {
-    "value": "OffsetInlay",
-    "label": "Offset Inlay",
-    "implantable": false,
-    "category": "InlaysOnlaysAndVenners",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
     "value": "OverpressCrown",
     "label": "Over-press Crown",
     "implantable": true,
@@ -213,34 +109,34 @@
     "useable": true
   },
   {
-    "value": "OverpressPontic",
-    "label": "Over-press Pontic",
+    "value": "ProvisionalCrown",
+    "label": "Provisional Crown",
+    "implantable": false,
+    "category": "CrownsAndCopings",
+    "hasMaterial": true,
+    "useable": true
+  },
+  {
+    "value": "SplintedCrown",
+    "label": "Splinted Crown",
+    "implantable": false,
+    "category": "CrownsAndCopings",
+    "hasMaterial": true,
+    "useable": true
+  },
+  {
+    "value": "AnatomicPontic",
+    "label": "Anatomic Pontic",
     "implantable": false,
     "category": "Pontics",
     "hasMaterial": true,
     "useable": true
   },
   {
-    "value": "PrimaryTelescope",
-    "label": "Primary Telescope",
-    "implantable": true,
-    "category": "RemovablesAndAppliances",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "ProstheticTooth",
-    "label": "Prosthetic Tooth",
+    "value": "OverpressPontic",
+    "label": "Over-press Pontic",
     "implantable": false,
-    "category": "ResidualDentition",
-    "hasMaterial": true,
-    "useable": true
-  },
-  {
-    "value": "ProvisionalCrown",
-    "label": "Provisional Crown",
-    "implantable": false,
-    "category": "CrownsAndCopings",
+    "category": "Pontics",
     "hasMaterial": true,
     "useable": true
   },
@@ -261,18 +157,42 @@
     "useable": true
   },
   {
+    "value": "AnatomicWaxup",
+    "label": "Anatomic Wax-up",
+    "implantable": true,
+    "category": "Waxup",
+    "hasMaterial": true,
+    "useable": true
+  },
+  {
     "value": "ReducedWaxup",
     "label": "Reduced Wax-up",
     "implantable": true,
-    "category": "DigitalCopyMilling",
+    "category": "Waxup",
     "hasMaterial": true,
     "useable": true
   },
   {
     "value": "WaxupPontic",
-    "label": "Wax-up Pontic",
+    "label": "Pontic Wax-up",
     "implantable": false,
-    "category": "DigitalCopyMilling",
+    "category": "Waxup",
+    "hasMaterial": true,
+    "useable": true
+  },
+  {
+    "value": "BiteSplint",
+    "label": "Bite Splint",
+    "implantable": false,
+    "category": "Splint",
+    "hasMaterial": true,
+    "useable": true
+  },
+  {
+    "value": "BiteSplintGap",
+    "label": "Bite SplintGap",
+    "implantable": false,
+    "category": "Splint",
     "hasMaterial": true,
     "useable": true
   },
@@ -291,7 +211,40 @@
     "category": "Denture",
     "hasMaterial": true,
     "useable": true
-  }
+  },
+  {
+    "value": "Missing",
+    "label": "Missing",
+    "implantable": false,
+    "materials": [
+      "None"
+    ],
+    "category": "Orthodontics",
+    "hasMaterial": false,
+    "useable": true
+  },
+  {
+    "value": "Anchor",
+    "label": "Anchor",
+    "implantable": false,
+    "materials": [
+      "None"
+    ],
+    "category": "Orthodontics",
+    "hasMaterial": false,
+    "useable": true
+  },
+  {
+    "value": "Extraction",
+    "label": "Extraction",
+    "implantable": false,
+    "materials": [
+      "None"
+    ],
+    "category": "Orthodontics",
+    "hasMaterial": false,
+    "useable": true
+  },
 ]
 ```
 
@@ -308,20 +261,59 @@
 | useable | 사용 여부 이 값이 false라면 UI에 표시하지 않음 |   
 
 
+## Implant
+> 임플란트는 Type에서 implantable이 true인 경우에만 유효한 값으로 계산됩니다.
+> 임플란트가 선택되면 implant type도 반드시 설정 되어야 합니다.
+
+### Props of Implant Value
+
+```JSON
+[
+  { 
+    "value": "CustomAbutment",
+    "label": "Custom Abutment",
+  },
+  {
+    "value": "StockAbutment",
+    "label": "Stock Abutment",
+  }
+]
+```
+
+| Props | Description |
+| -- | -- |
+| value | Implant에 대한 고유한 값 <br>이 값으로 report가 작성 되어야함 |
+| label | UI에 표시되는 Implant에 대한 값 |
+
+### Props of Implant Type
+
+```JSON
+[
+  {
+    "value": "ScrewType",
+    "label": "Screw Type"
+  },
+  {
+    "value": "CementType",
+    "label": "Cement Type"
+  }
+]
+```
+
+| Props | Description |
+| -- | -- |
+| value | Implant Type에 대한 고유한 값 <br>이 값으로 report가 작성 되어야함 |
+| label | UI에 표시되는 Implant Type에 대한 값 |
+
 ## Materials
 
 ### Props of Materials
 ```JSON
 [
   {
-    "value": "AU",
-    "label": "Gold",
-    "shades": [],
-    "useable": true
-  },
-  {
-    "value": "GCER",
-    "label": "Glass ceramic",
+    "value": "PMMA",
+    "label": "PMMA",
+    "desc": "Polymethyl methacrylate",
     "shades": [
       "VCL",
       "V3DM",
@@ -330,9 +322,19 @@
     "useable": true
   },
   {
-    "value": "LS1",
-    "label": "Lithium Silicate Glass Ceramic",
-    "desc": "e.g. Vita Suprinity, Dentsply Celtra",
+    "value": "PEEK",
+    "label": "PEEK",
+    "desc": "PolyEtherEtherKetone",
+    "shades": [
+      "VCL",
+      "V3DM",
+      "IVO"
+    ],
+    "useable": true
+  },
+  {
+    "value": "GCER",
+    "label": "Glass ceramic",
     "shades": [
       "VCL",
       "V3DM",
@@ -352,13 +354,50 @@
     "useable": true
   },
   {
-    "value": "MLZI",
-    "label": "Multilayer zirconium dioxide",
+    "value": "RC",
+    "label": "Hybrid Ceramic",
+    "desc": "Ultimate / enamic / cerasmart",
     "shades": [
       "VCL",
       "V3DM",
       "IVO"
     ],
+    "useable": true
+  },
+  {
+    "value": "ZI",
+    "label": "Zirconia",
+    "shades": [
+      "VCL",
+      "V3DM",
+      "IVO"
+    ],
+    "useable": true
+  },
+  {
+    "value": "MLZI",
+    "label": "Multilayer zirconia",
+    "shades": [
+      "VCL",
+      "V3DM",
+      "IVO"
+    ],
+    "useable": true
+  },
+  {
+    "value": "TZI",
+    "label": "Translucent zirconia",
+    "shades": [
+      "VCL",
+      "V3DM",
+      "IVO"
+    ],
+    "useable": true
+  },
+  {
+    "value": "AU",
+    "label": "Gold",
+    "shades": [],
     "useable": true
   },
   {
@@ -371,53 +410,10 @@
     "useable": true
   },
   {
-    "value": "PEEK",
-    "label": "PEEK",
-    "desc": "PolyEtherEtherKetone",
-    "shades": [
-      "VCL",
-      "V3DM",
-      "IVO"
-    ],
-    "useable": true
-  },
-  {
-    "value": "PMMA",
-    "label": "PMMA",
-    "desc": "Polymethyl methacrylate",
-    "shades": [
-      "VCL",
-      "V3DM",
-      "IVO"
-    ],
-    "useable": true
-  },
-  {
-    "value": "RC",
-    "label": "Resin Ceramic",
-    "desc": "Ultimate / enamic / cerasmart",
-    "shades": [
-      "VCL",
-      "V3DM",
-      "IVO"
-    ],
-    "useable": true
-  },
-  {
     "value": "TI",
     "label": "Titanium",
     "shades": [
       "MS"
-    ],
-    "useable": true
-  },
-  {
-    "value": "TRYIN",
-    "label": "Try-in material",
-    "shades": [
-      "VCL",
-      "V3DM",
-      "IVO"
     ],
     "useable": true
   },
@@ -429,23 +425,6 @@
       "V3DM",
       "IVO"
     ],
-    "useable": true
-  },
-  {
-    "value": "ZI",
-    "label": "Zirconium dioxide",
-    "shades": [
-      "VCL",
-      "V3DM",
-      "IVO"
-    ],
-    "useable": true
-  },
-  {
-    "value": "Healthy",
-    "label": "The healthy tooth",
-    "shades": [],
-    "usedByType": true,
     "useable": true
   },
   {
