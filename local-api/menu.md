@@ -1,7 +1,3 @@
-## RAYTeams Apps
-
-* [Apps](../apps/README.md)
-
 ## Case
 
 * [Create/Sync Case](./case-share.md)
