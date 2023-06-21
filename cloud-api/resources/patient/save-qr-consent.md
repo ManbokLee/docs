@@ -20,7 +20,6 @@ POST /patient/saveqrconsent
 | mobileuid | String | O  | Patient가 접속중인 모바일 장치의 고유 IO  |
 | password | String | O  | Patient가 등록한 DV를 열람할 수 있는 인증 번호(4자리)  |
 | consent | String | O  | Patient가 동의한 동의 내용  |
-| consentdate | Number  | O  | Patient가 동의한 동의 시각(Timestamp)  |
 
 ### Response
 
