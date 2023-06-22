@@ -13,6 +13,8 @@
 * [File](./resources/file.md)
 * [Product](./resources/product.md)
 
+* [Manager Only](./manager/README.md)
+
 ## Appendix
 
 * [Z.1 Region](./appendix/region.md)
