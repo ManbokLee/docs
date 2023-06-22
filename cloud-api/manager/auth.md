@@ -44,7 +44,7 @@ POST /auth
       "ExpiresIn" : 8600,
       "TokenType" : "Bearer",
       "RefreshToken" : "",
-      "IdToken" : "",
+      "IdToken" : ""
     }
   }
 }
