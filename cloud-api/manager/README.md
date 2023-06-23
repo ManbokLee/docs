@@ -5,3 +5,4 @@
 ## APIs
 
 * [User & Authentication](./auth.md)
+* [Update password](./updatepassword.md)
