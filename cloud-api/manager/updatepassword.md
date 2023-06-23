@@ -39,16 +39,7 @@ POST /upatemanageruserpasword
 ```JSON
 {
   "status": "success",
-  "data" : {
-    "user" : {},
-    "token" : {
-      "AccessToken" : "",
-      "ExpiresIn" : 8600,
-      "TokenType" : "Bearer",
-      "RefreshToken" : "",
-      "IdToken" : ""
-    }
-  }
+  "data" : {}
 }
 ```
 
@@ -56,16 +47,8 @@ POST /upatemanageruserpasword
 
 | Name | Type | Description |
 | --- | --- | --- |
-| status | String | 로그인 성공 여부 |
-| data.user | Object | 로그인된 관리자의 Attributes(Perms & Roles...), 개인 정보이외의 정보를 가지고 있음 |
-| data.token.AccessTokken | String | 로그인하려는 관리자의 Pasword |
-| data.token.ExpiresIn | Number | Token 유효 기간 |
-| data.token.TokenType | String | Bearer |
-| data.token.RefreshToken | String | Token 만료시 사용되는 RefreshToken |
-| data.token.IdToken | String | 인증에 사용되는 Token |
-
-**중요**
-**IdToken** 값이 Manager API를 사용할때 headers.token에 지정해야 정상적으로 인증되어 Manager API를 사용할 수 있습니다.
+| status | String | 비밀번호 변경 성공 여부 |
+| data | Object | DynamoDB에 있는 user object를 그대로 return |
 
 **fail**
 
