@@ -12,6 +12,16 @@
 POST /upatemanageruserpasword
 ```
 
+#### Headers
+
+[Login API](./auth.md)에서 획득한 **IdToken**을 사용합니다.
+
+```JSON
+{
+    "token" : "dfdsnfjkdsanfjksdafnjaskfnsadjfknajdksnfjadksnj"
+}
+```
+
 #### Payload
 
 ```JSON
