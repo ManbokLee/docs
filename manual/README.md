@@ -9,3 +9,7 @@ RAYTeams Service 에 대한 기술적인 정보들을 공유합니다.
 ## Manual/Documents
 
 * [Case Information](./case/README.md)
+
+## Common Information
+
+* [Common Information](./common/README.md)
