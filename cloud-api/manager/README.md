@@ -4,5 +4,6 @@
 
 ## APIs
 
+* [Create manager user](./createmanageruser.md)
 * [User & Authentication](./auth.md)
 * [Update password](./updatepassword.md)
