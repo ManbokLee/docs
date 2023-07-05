@@ -4,6 +4,15 @@
 
 ## APIs
 
+### Authentication
+* [Authentication](./auth.md)
+
+### Management manager users
 * [Create manager user](./createmanageruser.md)
-* [User & Authentication](./auth.md)
-* [Update password](./updatepassword.md)
+* [Update manager user info](./updatemanageruser.md)
+* [Update password(Self)](./updatepassword.md)
+
+### Danger zone...
+
+* [Create manager user password(Admin)](./updatemanagerpassword.md)
+* [Delete manager user](./deletemanageruser.md)
