@@ -14,5 +14,5 @@
 
 ### Danger zone...
 
-* [Create manager user password(Admin)](./updatemanagerpassword.md)
+* [Update manager user password(Admin)](./updatemanagerpassword.md)
 * [Delete manager user](./deletemanageruser.md)
