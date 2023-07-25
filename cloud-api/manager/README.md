@@ -9,6 +9,7 @@
 
 ### Management manager users
 * [Create manager user](./createmanageruser.md)
+* [Login or Create manager user](./loginorcreatemanageruser.md)
 * [Update manager user info](./updatemanageruser.md)
 * [Update password(Self)](./updatepassword.md)
 
