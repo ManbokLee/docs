@@ -12,7 +12,7 @@ Treatment plan을 특정 Case 에 추가 또는 업데이트 합니다.
 ### Request
 
 ```JSON
-POST /v1.0.1/tp/{caseid}/{td}
+POST /v1.0.1/tp/{caseid}/{tp}
 ```
 
 #### Paremeters(Querystring) Description
