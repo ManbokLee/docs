@@ -1,6 +1,7 @@
 ## Case
 
 * [Create/Sync Case](./case-share.md)
+* [Create Share Case](./share-case-sync.md)
 * [Diff Data](./rayteams-diff.md)
 * [Service Sync](./rayteams-servicesync.md)
 * [Data Sync](./rayteams-sync.md)
