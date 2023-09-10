@@ -13,7 +13,8 @@
 * [Get RAYTeams Client Info](./rayteams-ver.md)
 * [Wake-up RAYTeams Client](./rayteams-wakeup.md)
 * [Send signal](./rayteams-signal.md)
-* [Action log](./action-log.md)
+* [Action log](./action-log.md) - Deprecated(v1.0.36.X ~)
+* [Software log](./software-log.md)
 
 ## Cloud
 
