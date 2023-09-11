@@ -118,10 +118,3 @@ Software에서 발생하는 Error Message
 }
 ```
 
-## Features
-
-* ```data``` Object의 구성은 [Activity Log](../developer/common/activity-log.md)의 구성 요소의 일부와 동일합니다.
-
-* RAYTeams Client는 API를 통해 전달 받은 데이터를 [Activity Log](../developer/common/activity-log.md) 형태로 Logging한다.
-
-* App -> RAYTeams Client API -> Activity Log 저장
