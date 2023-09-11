@@ -1,4 +1,4 @@
-# Action log
+# Software log
 
 ## Summary
 
