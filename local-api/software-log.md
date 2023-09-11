@@ -36,7 +36,11 @@ Software에서 발생하는 Error Message
     "severity" : "WARN",
     "title" : "Files doest not exist",
     "msg" : "Error message.................",
-    ...
+    "extra" : {
+        "akey" : "aval",
+        "bkey" : "bval",
+        ...
+    }
 }
 ```
 
@@ -50,7 +54,7 @@ Software에서 발생하는 Error Message
 | data.severity | String | O  | Error Severity - CRITICAL / ERROR / INFO / WARN / COMMON |
 | data.title | String | O  | Error를 대표하는 Title  |
 | data.msg | String | X  | Error Message, Stack trace 등 |
-| ... | String | X  | Key-value 형태의 부가 정보 추가 가능(무제한) |
+| data.extra | Object | X  | Key-value 형태의 부가 정보 추가 가능(무제한), 상위 Key와 동일한 이름을 가질 수 없음 |
 
 **Payload - INFO**
 
@@ -61,7 +65,11 @@ Software에서 발생하는 Error Message
     "name" : "RAYFusion",
     "type" : "INFO",
     "title" : "PC Environments",
-    ...
+    "extra" : {
+        "akey" : "aval",
+        "bkey" : "bval",
+        ...
+    }
 }
 ```
 
@@ -72,7 +80,7 @@ Software에서 발생하는 Error Message
 | data.name | String | O | 요청하는 Software의 AppName - Developer site의 App Key(모르면 문의) |
 | data.type | String | O  | INFO |
 | data.title | String | O  | 이 정보를 대표하는 Title, 예: PC Information / Application Status |
-| ... | String | X  | Key-value 형태의 부가 정보 추가 가능(무제한) |
+| data.extra | Object | X  | Key-value 형태의 부가 정보 추가 가능(무제한), 상위 Key와 동일한 이름을 가질 수 없음 |
 
 **Payload - ACT**
 
@@ -84,7 +92,11 @@ Software에서 발생하는 Error Message
     "type" : "ACT",
     "title" : "Acquisition Face",
     "tranid" : "TRANSACTIONID",
-    ...
+    "extra" : {
+        "akey" : "aval",
+        "bkey" : "bval",
+        ...
+    }
 }
 ```
 
@@ -96,7 +108,7 @@ Software에서 발생하는 Error Message
 | data.type | String | O | ACT |
 | data.title | String | O | 이 정보를 대표하는 Title, 예: PC Information / Application Status |
 | data.tranid | String | X | 행위가 Transaction/Session 기반으로 관리된다면, 이를 대표하는 ID를 지정 |
-| ... | String | X  | Key-value 형태의 부가 정보 추가 가능(무제한) |
+| data.extra | Object | X  | Key-value 형태의 부가 정보 추가 가능(무제한), 상위 Key와 동일한 이름을 가질 수 없음 |
 
 ### Response
 
