@@ -8,6 +8,14 @@ Application에서의 다양한 정보/로그를 수집하여 Cloud 에 보관하
 
 아래의 규격을 따라 전송한 데이터를 생성하여 보내야만 합니다.
 
+RAYTeams Client에서 추가되는 정보는 아래와 같습니다.
+
+* RAYTeams GUID - PC의 고유 Global Unique ID
+* RAYTeams User ID - 사용자의 Unique ID(사용자가 로그인되어 있다면...)
+* PC Local IP Address
+* PC Public IP Address
+* Timestamp
+
 ### Request
 
 ```JSON
