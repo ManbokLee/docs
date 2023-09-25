@@ -26,3 +26,4 @@
 * [Z.7 Project & Order](./appendix/project-and-order.md)
 * [Z.8 Sandbox](./appendix/sandbox.md)
 * [Z.9 Deprecate APIs](./appendix/deprecate-apis.md)
+* [Z.10 Language Code](./appendix/language-code.md)
