@@ -10,6 +10,7 @@
 * [Case](./resources/case.md)
 * [Group](./resources/group.md)
 * [Common - Send email](./resources/group/send-email.md)
+* [Common - Send log](./resources/group/send-log.md)
 * [File](./resources/file.md)
 * [Product](./resources/product.md)
 
