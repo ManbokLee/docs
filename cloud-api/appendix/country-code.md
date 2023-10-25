@@ -104,3 +104,154 @@ Country information is used as Country Code. The information below shows Country
 | GZ | Gaza Strip |
 | HK | Hong Kong |
 | HM | Heard Island and McDonald Islands |
+| HN | Honduras |
+| HR | Croatia |
+| HT | Haiti |
+| HU | Hungary |
+| ID | Indonesia |
+| IE | Ireland |
+| IL | Israel |
+| IM | Isle of Man |
+| IN | India |
+| IO | British Indian Ocean Territory |
+| IQ | Iraq |
+| IR | Iran |
+| IS | Iceland |
+| IT | Italy |
+| JE | Jersey |
+| JM | Jamaica |
+| JO | Jordan |
+| JP | Japan |
+| KE | Kenya |
+| KG | Kyrgyzstan |
+| KH | Cambodia |
+| KI | Kiribati |
+| KM | Comoros |
+| KN | Saint Kitts and Nevis |
+| KP | North Korea |
+| KR | South Korea |
+| KW | Kuwait |
+| KY | Cayman Islands |
+| KZ | Kazakhstan |
+| LA | Laos |
+| LB | Lebanon |
+| LC | Saint Lucia |
+| LI | Liechtenstein |
+| LK | Sri Lanka |
+| LR | Liberia |
+| LS | Lesotho |
+| LT | Lithuania |
+| LU | Luxembourg |
+| LV | Latvia |
+| LY | Libya |
+| MA | Morocco |
+| MC | Monaco |
+| MD | Moldova |
+| ME | Montenegro |
+| MG | Madagascar |
+| MH | Marshall Islands |
+| MK | Macedonia [FYROM] |
+| ML | Mali |
+| MM | Myanmar [Burma] |
+| MN | Mongolia |
+| MO | Macau |
+| MP | Northern Mariana Islands |
+| MQ | Martinique |
+| MR | Mauritania |
+| MS | Montserrat |
+| MT | Malta |
+| MU | Mauritius |
+| MV | Maldives |
+| MW | Malawi |
+| MX | Mexico |
+| MY | Malaysia |
+| MZ | Mozambique |
+| NA | Namibia |
+| NC | New Caledonia |
+| NE | Niger |
+| NF | Norfolk Island |
+| NG | Nigeria |
+| NI | Nicaragua |
+| NL | Netherlands |
+| NO | Norway |
+| NP | Nepal |
+| NR | Nauru |
+| NU | Niue |
+| NZ | New Zealand |
+| OM | Oman |
+| PA | Panama |
+| PE | Peru |
+| PF | French Polynesia |
+| PG | Papua New Guinea |
+| PH | Philippines |
+| PK | Pakistan |
+| PL | Poland |
+| PM | Saint Pierre and Miquelon |
+| PN | Pitcairn Islands |
+| PR | Puerto Rico |
+| PS | Palestinian Territories |
+| PT | Portugal |
+| PW | Palau |
+| PY | Paraguay |
+| QA | Qatar |
+| RE | Réunion |
+| RO | Romania |
+| RS | Serbia |
+| RU | Russia |
+| RW | Rwanda |
+| SA | Saudi Arabia |
+| SB | Solomon Islands |
+| SC | Seychelles |
+| SD | Sudan |
+| SE | Sweden |
+| SG | Singapore |
+| SH | Saint Helena |
+| SI | Slovenia |
+| SJ | Svalbard and Jan Mayen |
+| SK | Slovakia |
+| SL | Sierra Leone |
+| SM | San Marino |
+| SN | Senegal |
+| SO | Somalia |
+| SR | Suriname |
+| ST | São Tomé and Príncipe |
+| SV | El Salvador |
+| SY | Syria |
+| SZ | Swaziland |
+| TC | Turks and Caicos Islands |
+| TD | Chad |
+| TF | French Southern Territories |
+| TG | Togo |
+| TH | Thailand |
+| TJ | Tajikistan |
+| TK | Tokelau |
+| TL | Timor-Leste |
+| TM | Turkmenistan |
+| TN | Tunisia |
+| TO | Tonga |
+| TR | Turkey |
+| TT | Trinidad and Tobago |
+| TV | Tuvalu |
+| TW | Taiwan |
+| TZ | Tanzania |
+| UA | Ukraine |
+| UG | Uganda |
+| UM | U.S. Minor Outlying, Islands |
+| US | United States |
+| UY | Uruguay |
+| UZ | Uzbekistan |
+| VA | Vatican City |
+| VC | Saint Vincent and the Grenadines |
+| VE | Venezuela |
+| VG | British Virgin Islands |
+| VI | U.S. Virgin Islands |
+| VN | Vietnam |
+| VU | Vanuatu |
+| WF | Wallis and Futuna |
+| WS | Samoa |
+| XK | Kosovo |
+| YE | Yemen |
+| YT | Mayotte |
+| ZA | South Africa |
+| ZM | Zambia |
+| ZW | Zimbabwe |
