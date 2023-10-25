@@ -15,6 +15,7 @@
 * [Send signal](./rayteams-signal.md)
 * [Action log](./action-log.md) - Deprecated(v1.0.36.X ~)
 * [Software log](./software-log.md)
+* [Resumable Download](./resumable-download.md)
 
 ## Cloud
 
