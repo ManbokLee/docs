@@ -57,6 +57,7 @@ Orthodontics Case에 대한 예시를 정리합니다.
 - 23번은 extraction
 - 치아의 컨디션은 spacing, crowding 이 2개의 상태를 가짐
 - Method of Gaining space 에서는 다음의 값들을 가짐
+  - Selecting teeth to move(key: selectingTeethToMove): 5-5
   - Extraction(which tooth to extract)(key: extractionExtract): Primary
   - Extraction(key: extraction): Primary
   - Interproximal Reduction(key: interproximal): Secondary
@@ -103,6 +104,7 @@ Orthodontics Case에 대한 예시를 정리합니다.
       "notMove": [
         "upper"
       ],
+      "selectingTeethToMove": "5-5",
       "extractionExtract": "primary",
       "extraction": "primary",
       "interproximal": "secondary",

@@ -1,5 +1,10 @@
 # Prosthesis Data
 
+## Change Histories
+- 23.10.26
+  - Pontic의 label이 "Pontic" 에서 "Pontic And Mockup" 으로 변경되었습니다.
+  - Pontic 카에고리에 Mockup 아이템이 추가되었습니다.
+
 ## Summary
 
 아래 내용 중 label, value 외의 값은 입력 폼을 만들기 위해 RAYTeams에서 사용한 방식이 포함되어 있습니다.
@@ -21,7 +26,7 @@
   },
   {
     "value": "Pontics",
-    "label": "Pontics",
+    "label": "Pontics And Mockup",
     "useable": true
   },
   {
@@ -151,6 +156,14 @@
   {
     "value": "ReducedPontic",
     "label": "Reduced Pontic",
+    "implantable": false,
+    "category": "Pontics",
+    "hasMaterial": true,
+    "useable": true
+  },
+  {
+    "value": "Mockup",
+    "label": "Mockup",
     "implantable": false,
     "category": "Pontics",
     "hasMaterial": true,

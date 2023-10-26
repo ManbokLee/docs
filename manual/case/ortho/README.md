@@ -4,6 +4,11 @@
 
 ## Index
 
-* [Orthodontics case data stucture](./ortho-structure-data.md)
+* [Orthodontics case data structure](./ortho-structure-data.md)
 * [Orthodontics case medical report](./ortho-structure-medicalreport.md)
 * [Orthodontics case Data Sample](./ortho-sample.md)
+
+
+## Change Histories
+- 23.10.26
+  - Orthodontics case medical report에 값이 추가되었습니다. [확인](./ortho-structure-medicalreport.md)
