@@ -7,7 +7,10 @@
       추가된 선택지는 ```{ "value": "midline", "label": "Midline" }``` 입니다.
     - selectingTeethToMove 가 추가되었습니다.   
       3-3, 5-5, 7-7의 값을 가질 수 있습니다.
-
+- 2023.11.01
+    - medicalRecords로 잘못 기제된 prop 이름이 수정되었습니다.   
+      As-Is: medicalRecords   
+      To-Be: medicalReport
 
 ## Summary
 
@@ -20,7 +23,7 @@
 {
     "report": {
         ...
-        "medicalRecords": {
+        "medicalReport": {
             "conditions": [
                 "crowding",
                 "spacing",
