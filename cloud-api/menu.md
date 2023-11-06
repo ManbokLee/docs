@@ -16,6 +16,10 @@
 
 * [Manager Only](./manager/README.md)
 
+## Application
+* [Get download link of the app's latest version ](./app/get-download-link-app-latest-version.md)
+
+
 ## Appendix
 
 * [Z.1 Region](./appendix/region.md)
