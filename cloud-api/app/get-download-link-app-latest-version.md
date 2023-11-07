@@ -6,7 +6,7 @@ Application의 최신 버전을 다운로드 받을수 있는 임시 링크를 �
 
 **End-point server**
 * Development : https://api-rsp-application.raydevelop.com
-* Production : https://api-rsp-application.raydevelop.com
+* Production : https://api-rsp-application.rayteams.com
 
 ### Request
 
