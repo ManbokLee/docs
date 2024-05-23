@@ -9,7 +9,7 @@ RAYTeams Client의 윈도우를 활성화 합니다.
 ### Request
 
 ```JSON
-GET http://localhost:8008/api/wakeup?path={path}&appName={appName}&licenseId={licenseId}
+GET http://localhost:8008/api/app/wakeup?path={path}&appName={appName}&licenseId={licenseId}
 ```
 
 #### Paremeters
@@ -22,7 +22,7 @@ GET http://localhost:8008/api/wakeup?path={path}&appName={appName}&licenseId={li
 
 :exclamation:  path 값이 존재하고 해당 화면이 로그인이 필요한 화면인 경우, 로그인 화면으로 이동(로그아웃 상황에서만) 
 
-:exclamation:  parameter 모두 Optional 입니다. ```/api/wakeup``` 으로 호출하면, 가장 마지막에 확인한 페이지로 윈도우가 활성화 됩니다.
+:exclamation:  parameter 모두 Optional 입니다. ```/api/app/wakeup``` 으로 호출하면, 가장 마지막에 확인한 페이지로 윈도우가 활성화 됩니다.
 
 ### Response
 
